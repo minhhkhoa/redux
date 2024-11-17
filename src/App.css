@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  display: block ;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.list {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  /* width: 100%; */
+}
+
+.list--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list--item h4 {
+  margin-right: 15px;
+}
+
+.list--item--decoration{
+  text-decoration: line-through;
+}
